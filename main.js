@@ -6,7 +6,7 @@
     const SAMPLE_DATA = [
       {
         "id":"r1",
-        "title":"Grandma's Cinnamon Rolls",
+        "title":"Grandma's  Cinnamon Rolls",
         "author":"Eleanor Smith",
         "category":"Dessert",
         "img":"https://images.unsplash.com/photo-1512058564366-c9e1d76d2b8d?auto=format&fit=crop&w=800&q=60",

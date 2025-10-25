@@ -315,33 +315,4 @@
   </script>
 </body>
 </html>
-Notes & next steps (quick)
-Separate recipes.json: Move the SAMPLE_DATA into recipes.json and uncomment the fetch('recipes.json') line in loadRecipes() to load externally.
 
-API approach: If later you want a real backend, expose an endpoint /api/recipes and replace fetch('recipes.json') with fetch('/api/recipes'). The site already uses a simple “API-like” helper openRecipe(id) and loadRecipes().
-
-Accessibility: keyboard focusable cards, aria-live on results, modal uses aria-modal. For production, add focus-trap inside modal and return focus to opener.
-
-Persistence: currently stores preferredAuthor and lastViewedRecipeId in localStorage; you can expand to save user favorites or edits.
-
-Animations: the carousel uses 3 rotating images; replace URLs with your family photos. The mixing bowl is pure CSS and meant to be decorative; it can be enhanced with SVG for more detail.
-
-Recipe input / conversion feature: add an admin-only page or modal where you can copy the 3x5 content and map fields (title, ingredients lines, steps); then store to recipes.json (or backend DB) — I can scaffold that too if you want.
-
-If you want, I can:
-
-split this into separate files (index.html, styles.css, app.js, recipes.json) and provide a Netlify-friendly folder structure,
-
-add an admin form to convert old 3x5 cards into structured recipes with auto-parsing,
-
-wire up a favorites system and print-friendly recipe pages,
-
-or produce a mockup for mobile-first UX.
-
-Which of those would you like next?
-
-
-
-
-No file chosenNo file chosen
-ChatGPT can make mistakes. Check important info.
